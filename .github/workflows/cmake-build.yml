@@ -1,10 +1,10 @@
-name: Build
+name: issue-9997
 
 on:
   workflow_dispatch:
   push:
     branches:
-    - dev
+    - issue-9997
   pull_request:
     branches:
      - master
